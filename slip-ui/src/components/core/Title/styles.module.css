@@ -1,0 +1,3 @@
+.title {
+    padding: calc(var(--unit) * 2);
+}
