@@ -1,11 +1,12 @@
 import './App.css';
 import { AppContainer, Title } from './components/core';
+import { MorningSurvey } from './components/forms';
 
 function App() {
   return (
     <AppContainer>
       <Title />
-      <div>rest</div>
+      <MorningSurvey />
     </AppContainer>
   );
 }
