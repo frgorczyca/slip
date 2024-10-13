@@ -1,9 +1,7 @@
-import './App.css'
+import './App.css';
 
 function App() {
-  return (
-   <div>Lol123</div>
-  )
+  return <div>Lol1</div>;
 }
 
-export default App
+export default App;
