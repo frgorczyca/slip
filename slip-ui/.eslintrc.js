@@ -28,6 +28,7 @@ module.exports = {
     'bin/**/*',
     'dist/**/*',
     '**/*.cjs',
+    'node_modules'
   ],
   rules: {
     '@typescript-eslint/naming-convention': [

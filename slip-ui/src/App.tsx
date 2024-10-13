@@ -1,7 +1,8 @@
 import './App.css';
+import { AppContainer } from './components/core/AppContainer';
 
 function App() {
-  return <div>Lol1</div>;
+  return <AppContainer>Lol1</AppContainer>;
 }
 
 export default App;
