@@ -1,8 +1,13 @@
 import './App.css';
-import { AppContainer } from './components/core/AppContainer';
+import { AppContainer, Title } from './components/core';
 
 function App() {
-  return <AppContainer>Lol1</AppContainer>;
+  return (
+    <AppContainer>
+      <Title />
+      <div>rest</div>
+    </AppContainer>
+  );
 }
 
 export default App;
