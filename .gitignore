@@ -1,2 +1,105 @@
 .docker.env
 data/
+
+
+# Byte-compiled / optimized / DLL files
+slip-server/GarminDB/__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+slip-server/GarminDB/.Python
+slip-server/GarminDB/env/
+slip-server/GarminDB/build/
+slip-server/GarminDB/develop-eggs/
+slip-server/GarminDB/dist/
+slip-server/GarminDB/downloads/
+slip-server/GarminDB/eggs/
+.eggs/
+slip-server/GarminDB/lib/
+slip-server/GarminDB/lib64/
+slip-server/GarminDB/parts/
+slip-server/GarminDB/sdist/
+slip-server/GarminDB/var/
+slip-server/GarminDB/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+slip-server/GarminDB/pip-log.txt
+slip-server/GarminDB/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+slip-server/GarminDB/htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+slip-server/GarminDB/nosetests.xml
+slip-server/GarminDB/coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+slip-server/GarminDB/local_settings.py
+
+
+# PyBuilder
+slip-server/GarminDB/target/
+
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+slip-server/GarminDB/venv/
+slip-server/GarminDB/ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+slip-server/GarminDB/site
+
+# mypy
+.mypy_cache/
+
+*.sublime-project
+*.sublime-workspace
+
+# project specific
+slip-server/GarminDB/bin/
+
+slip-server/GarminDB/bugreport.txt
+
+.DS_Store
+*.zip
+*.fit
+*.tcx
+*.html
+.*.conf
+slip-server/GarminDB/GarminConnectConfig.json
+*stats.txt
+*.png
+slip-server/GarminDB/test/test_files
+slip-server/GarminDB/my-defines.mk
+slip-server/GarminDB/test/*.txt
+
+slip-server/GarminDB/Jupyter/.ipynb_checkpoints/
