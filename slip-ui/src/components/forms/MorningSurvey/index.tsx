@@ -1,6 +1,11 @@
+import { useGetFormsData } from '@src/services/queries/forms';
+
 import { FormContainer } from '../common';
 
 export function MorningSurvey() {
+  const { data } = useGetFormsData();
+  console.log(data);
+
   return (
     <FormContainer title="Morning Survey">
       <div>input1</div>
