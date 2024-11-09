@@ -8,12 +8,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint \"{src,apps,libs,test}/**/*.{ts,tsx}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mock-server": "json-server --watch mock-db.json --port 8000"
   },
   "dependencies": {
     "@mantine/core": "7.13.2",
     "@mantine/hooks": "7.13.2",
     "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-query": "^3.39.3"
