@@ -1,0 +1,3 @@
+[submodule "GarminDB"]
+    path = slip-server/GarminDB
+    url = https://github.com/tcgoetz/GarminDB
